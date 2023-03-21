@@ -1,0 +1,109 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 0,
+            "nome": "Ricardo Lemes",
+            "idade": 39,
+            "nomeCursos": [
+                "Academia do Flutter",
+                "Jornada GeTx",
+                "Jornada LIn"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Academia do Ffff",
+                    "isAluno": true
+                },
+                {
+                    "id": 3,
+                    "nome": "Academia do GGGGGGGGGGGGGGGGGG",
+                    "isAluno": true
+                }
+            ],
+            "endereco": {
+                "rua": "Rua x",
+                "numero": 200,
+                "CEP": "555555555555",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Goiania"
+                },
+                "telefone": {
+                    "ddd": 11,
+                    "telefone": "999999999999"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "nome": "Julia Lemes",
+            "nomeCursos": [
+                "Academia do Flutter"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": false
+                },
+                {
+                    "id": 2,
+                    "nome": "Academia do Ffff",
+                    "isAluno": true
+                },
+                {
+                    "id": 3,
+                    "nome": "Academia do GGGGGGGGGGGGGGGGGG",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua x",
+                "numero": 200,
+                "CEP": "555555555555",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Goiania"
+                },
+                "telefone": {
+                    "ddd": 11,
+                    "telefone": "999999999999"
+                }
+            }
+        }
+    ]
+}
